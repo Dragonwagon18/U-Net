@@ -15,6 +15,3 @@ In the original U-Net, the decoder and encoder activations are merged by concate
 I've implemented a ResNet-style merging of the decoder and encoder activations by adding
 these activations. This was easy to code up, but it may not make sense theoretically and has not been tested.
 
-## Pixel-wise loss for semantic segmentation
-I had some trouble getting the pixel-wise loss working correctly for a semantic segmentation task.
-Here's how I got it working in the end.
